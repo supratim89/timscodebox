@@ -691,8 +691,7 @@ class CamBlastTool(QtWidgets.QWidget):
                                    quality=100)
                 cmds.file(save=True)
         else:
-            QtWidgets.QMessageBox.information(self,"Warning!","No Maya files in the directory!")
-            
+            QtWidgets.QMessageBox.information(self,"Warning!","No Maya files in the directory!")            
 
 if __name__=="__main__":
     ui = CamBlastTool()
